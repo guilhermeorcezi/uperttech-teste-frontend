@@ -3,13 +3,11 @@ import { FormHandles } from '@unform/core';
 import { FiMail, FiLock } from 'react-icons/fi';
 
 import Input from '../../components/Input';
-import {
-  Container, Form, Button, OptionContainer
-} from './styles';
+import { Container, Form, Button, OptionContainer } from './styles';
 
 const SignInOut: React.FC = () => {
   const formRef = useRef<FormHandles>(null);
-  const [login, setLogin] = useState(true);
+  const [login, setLogin] = useState(false);
 
   return (
     <Container>

@@ -8,9 +8,9 @@ import Sign from '../pages/Sign';
 
 const Routes: React.FC = () => (
   <Switch>
-    <Route path="/landing" exact component={Landing} />
+    <Route path="/" exact component={Landing} />
     <Route path="/sign" component={Sign} />
-    <Route path="/" component={Products} />
+    <Route path="/products" component={Products} />
   </Switch>
 );
 
